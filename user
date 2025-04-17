@@ -1,0 +1,18 @@
+const akash = {
+  username: "akash"
+};
+
+const sandeep = {
+  username: "sandeep"
+};
+const folderA = {
+  name: "folderA",
+  owner: akash.username
+};
+
+const folderB = {
+  name: "folderB",
+  owner: sandeep.username
+};
+console.log(folderA);
+console.log(folderB);
